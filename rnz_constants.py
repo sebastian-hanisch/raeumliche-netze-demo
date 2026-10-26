@@ -54,5 +54,5 @@ PRESET_HELP = {
     "Zwei nächste Nachbarn": "Jeder Punkt verbindet sich mit seinen zwei nächsten Nachbarn: ähnlich viele Kanten wie die Karte, aber viel mehr Dreiecke und keine zusammenhängende Karte.",
     "Gabriel-Graph": "Teilgraph der Delaunay-Triangulierung mit der Eigenschaft, dass kein Punkt im Kreis über der Kante liegt: zusammenhängend und kreuzungsfrei, aber mit deutlich mehr Dreiecken als die Karte.",
     "Delaunay, kürzeste Kanten zuerst": "Aus der Triangulierung bleiben die kürzesten Kanten, bis die Kantenzahl der Karte erreicht ist: kreuzungsfrei, aber die Karte zerfällt in kleine Teile.",
-    "Erdős–Rényi ohne Raumbezug": "Dieselbe Zahl von Kanten, aber gleichverteilt unter allen Paaren: die Gradverteilung ähnelt der Karte, doch die Kanten sind kilometerlang und es gibt fast keine Dreiecke.",
+    "Erdős–Rényi ohne Raumbezug": "Dieselbe Zahl von Kanten, aber gleichverteilt unter allen Paaren: die Kanten sind im Median 480 bis 960 m lang (Karte: 13 m), es gibt fast keine Dreiecke, und auch die Gradverteilung weicht ab (Abstand 0,35 bis 0,41).",
 }

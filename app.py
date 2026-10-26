@@ -146,10 +146,10 @@ st.markdown(
     """
 | Annahme | Was passiert, wenn sie verletzt ist | Wer setzt an |
 |---|---|---|
-| **Eine Karte steht für Straßennetze** | Der Befund gilt für diesen Ausschnitt von Toronto (Campus und Umgebung, 1 km Umkreis); andere Städte, Gitter- oder Altstadtnetze können anders aussehen. | diese Demo |
+| **Eine Karte steht für Straßennetze** | Der Befund gilt für diesen Ausschnitt von Toronto (Campus und Umgebung, ein Quadrat von 2 km Seitenlänge); andere Städte, Gitter- oder Altstadtnetze können anders aussehen. | diese Demo |
 | **Die Standorte sind gegeben** | Die Modelle bekommen die echten Kreuzungen als Punkte; ein Modell, das auch die Standorte erzeugt, ist schwerer und nicht Teil der Demo. | Netze im Raum (weitere Stücke) |
 | **Vier Kennzahlen reichen** | Es gibt mehr Maße (Kantenlänge, Kreise, Betweenness); die Schwellen für „trifft“ sind eine Festlegung der Demo (Abstand 0,05, Verhältnis 2, ¾ bis 4⁄3, Abstand 0,1). | diese Demo |
-| **Das Modell sieht einen Straßenverlauf** | Die Kanten sind Strecken zwischen den Punkten; krumme Straßen und Brücken sind nicht abgebildet, und die Karte hat 125 Kreuzungen von Strecken, die keine Kreuzungen im Straßennetz sind. | Planarität und Zeichnen (Vorgänger) |
+| **Das Modell sieht einen Straßenverlauf** | Die Kanten sind Strecken zwischen den Punkten; krumme Straßen und Brücken sind nicht abgebildet, und die Karte hat 125 Kreuzungen von Strecken; ob sie Brücken oder Tunnel oder Folge gerader Strecken sind, ist mit diesen Daten nicht entscheidbar. | Planarität und Zeichnen (Vorgänger) |
 | **Ein Modell soll alles zugleich treffen** | Die Modelle sind einfach; ein Modell mit mehreren Stellschrauben (Länge, Grad, Dreiecke) könnte besser passen. Die Demo zeigt nur, dass diese einfachen es nicht tun. | Modellwahl (Folgestück) |
 """
 )

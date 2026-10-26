@@ -5,7 +5,7 @@ Die Datei `toronto_campus.json` enthält einen **Auszug aus OpenStreetMap**.
 © OpenStreetMap-Mitwirkende – Daten unter der **Open Database License (ODbL) 1.0**:
 <https://opendatacommons.org/licenses/odbl/1-0/> · Hinweise zur Namensnennung: <https://www.openstreetmap.org/copyright>
 
-**Was der Auszug ist:** das Straßen- und Wegenetz im Umkreis von 1 000 m um den Mittelpunkt des St. George Campus der University of Toronto (43.662643, -79.395689),
+**Was der Auszug ist:** das Straßen- und Wegenetz in einem Quadrat von 2 km Seitenlänge (1 000 m nach jeder Seite) um den Mittelpunkt des St. George Campus der University of Toronto (43.662643, -79.395689),
 alle Wegarten, abgefragt am 21.09.2026 über die Overpass-Schnittstelle mit `osmnx` (`tools/fetch_osm.py`).
 
 **Was daran verändert wurde:** die Straßen sind zu Knoten und gerichteten Kanten vereinfacht (osmnx-Vereinfachung), Parallelkanten sind auf die kürzeste reduziert, Selbstschleifen entfernt,
